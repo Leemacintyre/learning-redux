@@ -27,8 +27,10 @@ const LogInPage = () => {
 
 	return (
 		<div>
-			<input onChange={userInput} />
-			<input onChange={passwordInput} />
+			<h1>user : lee</h1>
+			<h1>password : password</h1>
+			<input placeholder={user} onChange={userInput} />
+			<input placeholder={pass} onChange={passwordInput} />
 			<button onClick={logCheck}>{logIn ? 'log out' : 'log in'}</button>
 		</div>
 	);
